@@ -1,7 +1,7 @@
 inc StandardLib::Terminal
 
-def func[arr<str> args, rtrns int] main {
-    Terminal.print("Hello World!")
+def func[arr<str> args : rtrns int] main {
+    Terminal.print("Hello World!");
 
     ret 0;
 } 
